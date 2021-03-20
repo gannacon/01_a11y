@@ -70,17 +70,26 @@ p {
     background-position: center;
 }
 
-/* MOVE CONTENT CLASS UP */
-.content {
+/* REMOVED UNNECESSARY CLASS CONTENT*/
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 /* REORGANIZED CLASSES FOR THE SECTION PORTION OF HTML */
+/* removed classes from article to just reference article */
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
-
-
+/* UNNECESSARY PORTION SINCE ELIMINATING CLASSES */
+/* 
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -106,8 +115,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+} */
+
+article img{
+    max-height: 200px;
 }
 
+/* section article img:nth-child(odd){
+    float: left;
+    margin-right: 25px;
+}
+
+section article img:nth-child(even){
+    float: right;
+    margin-right: 25px;
+} */
+
+/* REDUNTANT CLASSES */
+/* 
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -118,9 +143,14 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
+} */
+
+article h2{
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.search-engine-optimization h2 {
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -133,7 +163,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .float-left {
     float: left;
@@ -147,8 +177,8 @@ p {
 
 
 
-/* MOVED CLASSES FOR ASIDE TO END MATCHING HTML */
-.benefits {
+/* MOVED CLASSES FOR ASIDE TO END MATCHING HTML / REMOVE BENEFITS CLASS AND CHANGE TO ASIDE */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -159,6 +189,13 @@ p {
     background-color: #2589bd;
 }
 
+aside div {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* UNNECESSARY CLASSES */
+/* 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -172,9 +209,15 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+} */
+
+aside div h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.benefit-lead h3 {
+/* UNNECESSARY CLASSES */
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -187,9 +230,16 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+} */
+
+aside div img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
-.benefit-lead img {
+/* UNNECESSARY CLASSES */
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -205,7 +255,7 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
 footer {
     padding: 30px;
