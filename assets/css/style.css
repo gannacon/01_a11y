@@ -88,7 +88,7 @@ article {
     color: #ffffff;
 }
 
-/* UNNECESSARY PORTION SINCE ELIMINATING CLASSES */
+/* UNNECESSARY CLASSES */
 /* 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -131,7 +131,7 @@ section article img:nth-child(even){
     margin-right: 25px;
 } */
 
-/* REDUNTANT CLASSES */
+/* UNNECESSARY CLASSES */
 /* 
 .search-engine-optimization img {
     max-height: 200px;
@@ -150,6 +150,7 @@ article h2{
     font-size: 36px;
 }
 
+/* UNNECESSARY CLASSES */
 /* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
